@@ -1,4 +1,5 @@
 export default function Die(props){
+   
 
     return(
         <div
@@ -6,6 +7,7 @@ export default function Die(props){
          onClick={props.holdDice}
          >
             <h2 className="die-value">{props.value}</h2>
+            
         </div>
     )
   
